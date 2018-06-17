@@ -1,0 +1,11 @@
+[Unit]
+Description=purepoint react coding test
+After=network.target
+
+[Service]
+WorkingDirectory=/home/mjugger/purepoint-react-test/
+ExecStart=/usr/bin/node index.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
