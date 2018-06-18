@@ -119,7 +119,7 @@ class RecipeList extends Component {
   }
 }
 
-RecipeList.PropTypes = {
+RecipeList.propTypes = {
   actions: PropTypes.object.isRequired,
   recipes: PropTypes.string.isRequired,
   error: PropTypes.string.isRequired
