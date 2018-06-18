@@ -10,7 +10,7 @@ Then
 ```
 gulp
 ```
-to do a build (files will be watched).
+to do a build (leave gulp running to watch files).
 then
 ```
 npm run start or node index.js
