@@ -121,8 +121,8 @@ class RecipeList extends Component {
 
 RecipeList.propTypes = {
   actions: PropTypes.object.isRequired,
-  recipes: PropTypes.string.isRequired,
-  error: PropTypes.string.isRequired
+  recipes: PropTypes.array.isRequired,
+  error: PropTypes.string
 }
 
 function mapStateToProps(state) {
