@@ -12,6 +12,6 @@ app.use(bodyParser.urlencoded({
 app.use(express.static('./dist'));
 app.use(require('./server/routes'));
 
-app.listen(3000,function(){
+app.listen(3006,function(){
 	console.log('express server listening on port: ',this.address().port);
 });

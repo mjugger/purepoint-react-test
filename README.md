@@ -15,5 +15,5 @@ then
 ```
 npm run start or node index.js
 ```
-to start the express server. Then navigate to: [localhost:3000](http://localhost:3000)
+to start the express server. Then navigate to: [localhost:3006](http://localhost:3006)
 to see a local working instance.
