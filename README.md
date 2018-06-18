@@ -6,6 +6,11 @@ To install run:
 ```
 npm install
 ```
+Then
+```
+gulp
+```
+to do a build (files will be watched).
 then
 ```
 npm run start or node index.js

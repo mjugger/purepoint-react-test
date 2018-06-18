@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 //import HomeReducer from './scenes/home/reducer';
-import HelloWorldReducer from './scenes/HelloWorld/reducer';
+import RecipeListReducer from './scenes/RecipeList/reducer';
 
 
 const RootReducer = combineReducers({
-  HelloWorldReducer
+  RecipeListReducer
 });
 
 export default RootReducer;

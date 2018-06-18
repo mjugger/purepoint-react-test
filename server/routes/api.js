@@ -1,11 +1,15 @@
 const express = require('express');
 const router = express.Router();
-const os = require('os');
+const request = require('request');
 
-const helloWorld = `hello world, this is a message from the server. your server OS is: ${os.platform()}`;
-
-router.get('/helloworld', (req, res) => {
-  res.status(200).json({ helloWorld })
+router.post('/recipecontains', (req, res) => {
+  const { text } = req.body;
+  request({
+    uri: 'http://www.recipepuppy.com/api',
+    qs: {
+      q: text
+    }
+  }).pipe(res);
 });
 
 module.exports = router;

@@ -1,8 +1,8 @@
 import { fork, all } from 'redux-saga/effects';
-import HelloWorldSagas from './scenes/HelloWorld/sagas';
+import RecipeListSagas from './scenes/RecipeList/sagas';
 
 const sagas = [
-  ...HelloWorldSagas
+  ...RecipeListSagas
 ]
 
 export default function* RootSaga() {
